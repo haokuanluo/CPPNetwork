@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/C++_Network/myserver.cpp
+network/connection.h
+/Users/admin/C++_Network/network/connection.h
+mutex
+-
+
+/Users/admin/C++_Network/network/connection.h
+connection.h
+/Users/admin/C++_Network/network/connection.h
+functional
+-
+sys/time.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+string.h
+-
+errno.h
+-
+mutex
+-
+vector
+-
+thread
+-
+

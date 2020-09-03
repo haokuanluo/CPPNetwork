@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/C++_Network/experiment.cpp
+thread
+-
+cstdio
+-
+
+/Users/admin/C++_Network/network/connection.cpp
+connection.h
+/Users/admin/C++_Network/network/connection.h
+
+/Users/admin/C++_Network/network/connection.h
+
