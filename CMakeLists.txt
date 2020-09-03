@@ -14,7 +14,6 @@ include_directories(${PROJECT_SOURCE_DIR})
 #add_executable(myclient client.c)
 
 add_subdirectory(netlib)
-add_subdirectory(applications/Echo)
 add_subdirectory(applications/MapReduce)
 
 
